@@ -1,0 +1,9 @@
+{
+    "classification": "Guidance",
+    "content_type": "Warnings",
+    "description": "Warning symbol displayed on image indicating safety hazard.",
+    "key_info": [
+        "WARNING! Falling hazard \u2013 to reduce the risk of this product falling down, it must be securely anchored. Use suitable screws and plugs for your home."
+    ],
+    "guidance": "Refer to Safety Guidelines regarding wall anchoring requirements before installation."
+}

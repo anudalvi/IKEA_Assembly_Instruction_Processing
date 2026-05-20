@@ -1,0 +1,24 @@
+{
+    "classification": "Assembly",
+    "step_name": "Secure Wall Shelf Unit",
+    "action": "1. Insert screw \u2193\n2. Align arrow \u2191 to top\n3. Tighten \u2713",
+    "parts": [
+        {
+            "id": "Unknown",
+            "name": "screw",
+            "quantity": 4
+        },
+        {
+            "id": "109053",
+            "name": "screw",
+            "quantity": 2
+        }
+    ],
+    "tools": [
+        "Allen key (included)"
+    ],
+    "safety": "Falling hazard \u2013 anchor required",
+    "difficulty": [
+        "Easy"
+    ]
+}

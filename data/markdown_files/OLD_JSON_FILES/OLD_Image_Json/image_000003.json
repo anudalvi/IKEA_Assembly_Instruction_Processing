@@ -1,0 +1,9 @@
+{
+  "classification": "Guidance",
+  "content_type": "Warnings",
+  "description": "Safety warning triangle (⚠️) shown in image.",
+  "key_info": [
+    "Warning symbol"
+  ],
+  "guidance": "None or Warning"
+}

@@ -1,0 +1,29 @@
+{
+    "classification": "Assembly",
+    "step_name": "Unbox and Prepare Parts",
+    "action": "1. Unpack items \u2192\n2. Align arrow \u2191 to top\n3. Insert screw \u2193",
+    "parts": [
+        {
+            "id": "Unknown",
+            "name": "screw",
+            "quantity": 4
+        },
+        {
+            "id": "9053",
+            "name": "screw",
+            "quantity": 1
+        },
+        {
+            "id": "100001",
+            "name": "bracket",
+            "quantity": 2
+        }
+    ],
+    "tools": [
+        "Allen key (included)"
+    ],
+    "safety": "Falling hazard \u2013 anchor required",
+    "difficulty": [
+        "Easy"
+    ]
+}

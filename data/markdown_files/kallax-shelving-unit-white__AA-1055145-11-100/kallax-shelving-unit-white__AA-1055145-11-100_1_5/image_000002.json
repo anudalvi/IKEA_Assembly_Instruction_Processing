@@ -1,0 +1,10 @@
+{
+  "classification": "Guidance",
+  "content_type": "Safety | Warnings",
+  "description": "Image displays a single safety warning symbol: a triangle containing an exclamation mark (⚠️ warning), indicating a potential hazard or requirement.",
+  "key_info": [
+    "⚠️ Safety Warning Symbol (Triangle with Exclamation Mark)",
+    "Safety Requirement"
+  ],
+  "guidance": "Ensure the KALLAX Shelving unit is securely anchored to prevent tipping hazards. Verify installation complies with local safety regulations or seek professional advice for proper anchoring."
+}

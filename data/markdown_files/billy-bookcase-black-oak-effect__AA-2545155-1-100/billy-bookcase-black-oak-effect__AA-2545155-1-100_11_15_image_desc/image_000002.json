@@ -1,0 +1,22 @@
+{
+    "classification": "Assembly",
+    "step_name": "Mount Screws",
+    "action": "1. Align screw \u2193\n2. Insert \u2193\n3. Tighten \u2713",
+    "parts": [
+        {
+            "id": "151705",
+            "name": "screw",
+            "quantity": 18
+        },
+        {
+            "id": "151706",
+            "name": "screw",
+            "quantity": 18
+        }
+    ],
+    "tools": [],
+    "safety": "Tip-over hazard \u2013 Secure to wall \u2013 tip-over hazard",
+    "difficulty": [
+        "Easy"
+    ]
+}

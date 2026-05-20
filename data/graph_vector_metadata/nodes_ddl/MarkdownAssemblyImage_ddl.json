@@ -1,0 +1,60 @@
+{ 
+   "graph_dbname":"IKEA_CatalogDB", 
+   "nodes":[
+      {
+         "ddl_name":"Markdown Assembly Image",
+         "entity_name":"MarkdownAssemblyImage",
+         "entity_alias":"mi",
+         "graph_node_type":"multiple",
+         "node_array_name":"chunk_nodes.image_nodes_arr",
+         "mapping_details":{
+            "Column_Mapping":{
+               "image_path":"image_path",
+               "content":"content",
+               "image_hex_name":"image_hex_name"
+            },
+            "key_column":{
+               "markdown_file_name":"markdown_file_name",
+               "pdf_file_name":"pdf_file_name",
+               "page_number":"page_number",
+               "image_id":"image_id",
+               "type":"type"
+            }
+         },
+         "index_columns":[
+            "markdown_file_name",
+            "pdf_file_name",
+            "page_number",
+            "image_id"
+         ]
+      }
+   ],
+   "relationships":[
+      {
+         "from_node":"MarkdownAssemblyImage",
+         "from_node_alias":"mi",
+         "to_node":"AssemblyStep",
+         "to_node_alias":"st",
+         "join_conditions":{
+            "markdown_file_name":"markdown_file_name",
+            "pdf_file_name":"pdf_file_name",
+            "image_id":"image_id"
+         },
+         "relationship_name":"HAS_ASSEMBLY_INSTRUCTIONS",
+         "match_type":"OPTIONAL MATCH"
+      },
+      {
+         "from_node":"MarkdownAssemblyImage",
+         "from_node_alias":"mi",
+         "to_node":"GuidanceStep",
+         "to_node_alias":"gs",
+         "join_conditions":{
+            "markdown_file_name":"markdown_file_name",
+            "pdf_file_name":"pdf_file_name",
+            "image_id":"image_id"
+         },
+         "relationship_name":"HAS_ASSEMBLY_GUIDANCE",
+         "match_type":"OPTIONAL MATCH"
+      }
+   ]
+}

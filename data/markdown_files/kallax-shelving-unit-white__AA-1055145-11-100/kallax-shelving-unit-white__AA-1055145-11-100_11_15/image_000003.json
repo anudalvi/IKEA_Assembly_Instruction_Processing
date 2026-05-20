@@ -1,0 +1,15 @@
+{
+    "assembly": {
+        "image_parts": [
+            {
+                "id": null,
+                "name": "panel",
+                "qty": null,
+                "tool": [],
+                "symbol": "arrow pointing left"
+            }
+        ],
+        "action": "",
+        "safety_alert": "⚠️ Tipping hazard"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "classification": "Assembly",
+    "step_name": "Avoid tipping",
+    "action": "1. Check for tip-over hazard\n2. Ensure secure wall anchor\n3. Position carefully",
+    "parts": [],
+    "tools": [
+        "Tape measure (included)"
+    ],
+    "safety": "Falling hazard \u2013 anchor required",
+    "difficulty": [
+        "Medium"
+    ]
+}

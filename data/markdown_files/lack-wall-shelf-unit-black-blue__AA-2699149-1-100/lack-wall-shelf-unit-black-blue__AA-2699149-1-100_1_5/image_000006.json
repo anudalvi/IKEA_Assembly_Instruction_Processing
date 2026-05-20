@@ -1,0 +1,14 @@
+{
+    "classification": "Assembly",
+    "step_name": "Tools Required for Assembly",
+    "action": "1. Insert screwdriver \u2193\n2. Align arrow \u2191 to top\n3. Get assistance \u2713",
+    "parts": [],
+    "tools": [
+        "screwdriver (included)",
+        "tape measure"
+    ],
+    "safety": "None or Warning",
+    "difficulty": [
+        "Easy"
+    ]
+}

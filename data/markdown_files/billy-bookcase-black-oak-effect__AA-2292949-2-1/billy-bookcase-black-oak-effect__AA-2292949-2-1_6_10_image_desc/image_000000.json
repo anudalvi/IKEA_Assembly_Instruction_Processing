@@ -1,0 +1,19 @@
+{
+    "classification": "Assembly",
+    "step_name": "Screw Selection",
+    "action": "1. Insert screw \u2193\n2. Align arrow \u2191 to top\n3. Tighten \u2713",
+    "parts": [
+        {
+            "id": "Unknown",
+            "name": "screw",
+            "quantity": "Unclear"
+        }
+    ],
+    "tools": [
+        "Allen key (included)"
+    ],
+    "safety": "Safety Guidelines",
+    "difficulty": [
+        "Easy"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "classification": "Assembly",
+    "step_name": "Fastening Holes",
+    "action": "1. Align screw with hole \u2193\n2. Insert screw into wood \u2191\n3. Tighten firmly \u2713\n4. Repeat for remaining 18x holes \u2192",
+    "parts": [
+        {
+            "id": "151706",
+            "name": "screw",
+            "quantity": 18
+        }
+    ],
+    "tools": [
+        "Allen key (included)",
+        "screwdriver (not included)"
+    ],
+    "safety": "Wall mounting \u2192 \"Falling hazard \u2013 anchor required\"",
+    "difficulty": [
+        "Easy"
+    ]
+}

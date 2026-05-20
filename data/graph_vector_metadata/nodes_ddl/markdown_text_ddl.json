@@ -1,0 +1,28 @@
+{
+   "graph_dbname":"IKEA_CatalogDB", 
+   "nodes":[
+      {
+         "ddl_name":"Markdown Text",
+         "entity_name":"MarkdownText",
+         "entity_alias":"mt",
+         "graph_node_type":"multiple",
+         "node_array_name":"chunk_nodes.text_nodes_arr",
+         "mapping_details":{
+            "Column_Mapping":{
+               "content":"content"
+            },
+            "key_column":{
+               "markdown_file_name":"markdown_file_name",
+               "pdf_file_name":"pdf_file_name",
+               "page_number":"page_number",
+               "type":"type"
+            }
+         },
+         "index_columns":[
+            "markdown_file_name",
+            "pdf_file_name",
+            "page_number"
+         ]
+      }
+   ]
+}

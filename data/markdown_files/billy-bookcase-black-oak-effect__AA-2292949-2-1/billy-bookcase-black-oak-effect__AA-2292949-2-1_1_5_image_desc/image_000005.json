@@ -1,0 +1,19 @@
+{
+    "classification": "Assembly",
+    "step_name": "Safety Check",
+    "action": "1. Insert screw \u2193\n2. Align arrow \u2191 to top\n3. Get assistance \u2013 heavy component",
+    "parts": [
+        {
+            "id": "104325",
+            "name": "screw",
+            "quantity": "Unclear"
+        }
+    ],
+    "tools": [
+        "hammer (included)"
+    ],
+    "safety": "Safety Guidelines",
+    "difficulty": [
+        "Medium"
+    ]
+}

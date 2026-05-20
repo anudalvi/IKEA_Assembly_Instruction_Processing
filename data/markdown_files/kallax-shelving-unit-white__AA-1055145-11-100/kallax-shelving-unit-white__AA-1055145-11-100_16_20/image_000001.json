@@ -1,0 +1,15 @@
+[GUIDANCE]
+```json
+{
+  "classification": "Guidance",
+  "content_type": "Warnings | Setup | Contact",
+  "description": "Shelving unit shown with 'No' symbol for sideboard position and safety warnings",
+  "key_info": [
+    "KALLAX Shelving unit (Text)",
+    "WARNING! Tipping hazard – this product must be securely anchored.",
+    "Use suitable screws and plugs for your home.",
+    "If you are uncertain, seek professional advice.",
+    "📞 Call IKEA customer care for more clarification"
+  ],
+  "guidance": "Ensure shelving unit is placed in a stable location away from walls. Place under appropriate anchoring if required by local regulations to prevent tipping hazards. Use suitable hardware as recommended."
+}

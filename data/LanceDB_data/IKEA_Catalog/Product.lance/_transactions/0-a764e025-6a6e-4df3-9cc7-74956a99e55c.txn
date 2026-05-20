@@ -1,0 +1,7 @@
+$a764e025-6a6e-4df3-9cc7-74956a99e55c²¬
+id ÿÿÿÿÿÿÿÿÿ*string84vector ÿÿÿÿÿÿÿÿÿ*fixed_size_list:float:38408"content ÿÿÿÿÿÿÿÿÿ*string08$	dataframe ÿÿÿÿÿÿÿÿÿ*string08blob ÿÿÿÿÿÿÿÿÿ*binary08meta ÿÿÿÿÿÿÿÿÿ*struct0_isempty *struct0!Care Instructions *bool08Material *bool08
+Product_id	 *bool08%Safety and compliance
+ *bool08article_number *bool08.assembly_instruction_file_name *bool08good_to_know *bool08 product_category *bool08product_color *bool08product_details *bool08"product_dimensions *bool08product_name *bool08#Care Instructions *string08Material *string08
+Product_id *string08'Safety and compliance *string08 article_number *string080assembly_instruction_file_name *string08good_to_know *string08"product_category *string08product_color *string08!product_details *string08$product_dimensions *string08product_name *string08!_isempty ÿÿÿÿÿÿÿÿÿ*struct0blob  *bool08content! *bool08	dataframe" *bool08id# *bool08meta$ *bool08vector% *bool08"!
+lance.auto_cleanup.interval20"'
+lance.auto_cleanup.older_than14days

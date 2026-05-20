@@ -1,0 +1,9 @@
+{
+  "classification": "Assembly",
+  "step_name": "Install shelving into wall niche",
+  "action": "1. Position vertical panel →\n2. Push firmly into wall opening ↑\n3. Secure firmly ✓",
+  "parts": [{"id": "Unknown Part", "name": "panel", "quantity": 1}],
+  "tools": ["(not included)"],
+  "safety_alert": "⚠️ Wall anchor required (WARNING! Tipping hazard)",
+  "difficulty": "Easy"
+}

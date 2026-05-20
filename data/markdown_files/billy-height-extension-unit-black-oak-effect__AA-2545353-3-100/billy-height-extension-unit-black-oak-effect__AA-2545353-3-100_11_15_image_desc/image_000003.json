@@ -1,0 +1,19 @@
+{
+    "classification": "Assembly",
+    "step_name": "Install L-Brackets",
+    "action": "1. Insert screw \u2193\n2. Align arrow \u2191 to top\n3. Tighten \u2713",
+    "parts": [
+        {
+            "id": "Unknown",
+            "name": "screw",
+            "quantity": 4
+        }
+    ],
+    "tools": [
+        "Allen key (included)"
+    ],
+    "safety": "Wall mounting \u2013 anchor required",
+    "difficulty": [
+        "Medium"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "classification": "Assembly",
+    "step_name": "Tip-over Hazard Warning",
+    "action": "\u26a0\ufe0f Secure to wall \u2013 tip-over hazard\n\u274c Do not lean against side panel\n\u2192 Position upright before assembly begins",
+    "parts": [
+        {
+            "id": "Unknown",
+            "name": "panel",
+            "quantity": "Unclear"
+        },
+        {
+            "id": "104325",
+            "name": "screw",
+            "quantity": "Unclear"
+        }
+    ],
+    "tools": [
+        "None"
+    ],
+    "safety": "Safety Guidelines",
+    "difficulty": [
+        "Medium"
+    ]
+}

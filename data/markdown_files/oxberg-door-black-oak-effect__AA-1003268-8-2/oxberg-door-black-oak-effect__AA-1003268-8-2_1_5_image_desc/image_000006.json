@@ -1,0 +1,9 @@
+{
+    "classification": "Guidance",
+    "content_type": "Warnings",
+    "description": "Warning in Arabic text on the image indicating 'Hold' or 'Caution'",
+    "key_info": [
+        "Warning: Hold"
+    ],
+    "guidance": "Handle with care \u2013 sharp edges"
+}

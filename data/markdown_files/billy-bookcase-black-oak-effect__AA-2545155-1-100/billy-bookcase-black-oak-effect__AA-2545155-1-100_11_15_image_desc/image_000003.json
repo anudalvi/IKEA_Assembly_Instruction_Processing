@@ -1,0 +1,17 @@
+{
+    "classification": "Assembly",
+    "step_name": "Slide door panel down",
+    "action": "1. Pull back arrow \u2193 to slide panel down\n2. Align front edge \u21bb with wall\n3. Tighten fastener \u2713",
+    "parts": [
+        {
+            "id": "104325",
+            "name": "screw",
+            "quantity": 6
+        }
+    ],
+    "tools": [],
+    "safety": "Falling hazard \u2013 anchor required",
+    "difficulty": [
+        "Medium"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+"classification": "Guidance",
+"content_type": "Contact / Phone Call",
+"description": "User is confused by shelf unit, calling for help/clarification.",
+"key_info": [
+"IKEA logo visible",
+"Phone icon present"
+],
+"guidance": "Call customer care"
+}

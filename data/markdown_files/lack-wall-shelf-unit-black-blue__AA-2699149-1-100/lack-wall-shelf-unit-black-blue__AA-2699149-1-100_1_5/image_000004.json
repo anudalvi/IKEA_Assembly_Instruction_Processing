@@ -1,0 +1,9 @@
+{
+    "classification": "Guidance",
+    "content_type": "Warnings",
+    "description": "Warning symbol indicating a falling hazard for wall-mounted shelves.",
+    "key_info": [
+        "WARNING! Falling hazard \u2013 to reduce the risk of this product falling down, it must be securely anchored. Use suitable screws and plugs for your home."
+    ],
+    "guidance": "Ensure shelf is securely anchored before use; do not mount without proper anchoring due to falling hazard."
+}

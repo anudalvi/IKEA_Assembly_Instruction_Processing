@@ -1,0 +1,30 @@
+{
+  "classification": "assembly",
+  "parts_extracted": [
+    {
+      "id": "104321",
+      "name": "Screw", 
+      "quantity": 8
+    },
+    {
+      "id": null, 
+      "name": "Vertical Post", 
+      "quantity": 2
+    },
+    {
+      "id": "115753", 
+      "name": "L-Bracket", 
+      "quantity": 2
+    },
+    {
+      "id": "103693", 
+      "name": "Backplate", 
+      "quantity": 1
+    }
+  ],
+  "assembly_instructions": [
+    "Align Vertical Posts with Backplate.",
+    "Insert Long Screw into screw holes (8x pack).",
+    "Install L-Brackets into corners."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "action": "Assembly",
+  "assembly_steps": [
+    "Place the wall anchors into the designated holes.",
+    "Insert the Kallax bracket through each hole until it is tight against the ceiling and secured to the wall."
+  ],
+  "parts": [
+    {
+      "part_id": "5629",
+      "generic_name": "Kallax Bracket"
+    }
+  ],
+  "generic_names": [
+    "screw",
+    "dowel",
+    "wall_anchor"
+  ],
+  "quantity": 2,
+  "tools": [],
+  "symbols": [
+    {
+      "code": "⚠️",
+      "text": "tip"
+    }
+  ],
+  "safety": []
+}

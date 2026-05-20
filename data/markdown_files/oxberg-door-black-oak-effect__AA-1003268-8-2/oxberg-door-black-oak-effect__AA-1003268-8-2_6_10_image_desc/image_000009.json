@@ -1,0 +1,19 @@
+{
+    "classification": "Assembly",
+    "step_name": "Screw Door Handle",
+    "action": "1. Insert screw \u2193\n2. Align arrow \u21bb to top\n3. Tighten screw \u2713",
+    "parts": [
+        {
+            "id": "122576",
+            "name": "screw",
+            "quantity": 4
+        }
+    ],
+    "tools": [
+        "screwdriver (included)"
+    ],
+    "safety": "Falling hazard \u2013 anchor required",
+    "difficulty": [
+        "Easy"
+    ]
+}

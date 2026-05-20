@@ -1,0 +1,12 @@
+{
+  "classification": "Assembly",
+  "step_name": "Install shelving anchors",
+  "action": "1. Tighten screw heads for shelves →↓+⚠️✓\n2. Fix wall bracket +↑-✔️",
+  "parts": [
+    {
+      "name": "screw",
+      "id": "Unknown"
+    }
+  ],
+  "tools": []
+}

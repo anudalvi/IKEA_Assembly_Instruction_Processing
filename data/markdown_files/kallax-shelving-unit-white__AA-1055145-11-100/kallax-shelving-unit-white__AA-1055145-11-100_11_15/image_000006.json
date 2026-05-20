@@ -1,0 +1,9 @@
+{
+  "json_output": {
+    "classification": "Guidance",
+    "description": "KALLAX shelving unit usage diagram showing orientations with visible insert references (numbers) such as 15 and 20.",
+    "image_id": null, // Not a valid SKU per strict validation for assembly steps, but identifiable text labels
+    "content_type": "Orientation/Instruction",
+    "strict_validation_result": false
+  }
+}

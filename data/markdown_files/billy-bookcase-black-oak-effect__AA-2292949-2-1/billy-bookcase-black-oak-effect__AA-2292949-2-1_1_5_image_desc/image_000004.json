@@ -1,0 +1,9 @@
+{
+    "classification": "Guidance",
+    "content_type": "Warnings",
+    "description": "Product image displays a warning symbol inside an equilateral triangle with an exclamation mark.",
+    "key_info": [
+        "\u26a0\ufe0f Warning symbol visible"
+    ],
+    "guidance": "Warning about tipping hazard \u2013 anchor required. Secure to wall or use suitable screws and plugs."
+}

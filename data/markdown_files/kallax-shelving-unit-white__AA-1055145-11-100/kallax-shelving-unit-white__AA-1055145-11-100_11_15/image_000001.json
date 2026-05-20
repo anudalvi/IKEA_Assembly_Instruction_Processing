@@ -1,0 +1,9 @@
+{
+  "classification": "Assembly",
+  "step_name": "Insert shelving unit",
+  "action": "1. Push panel right ↑\n2. Align dowel (101339) ↓+⚠️✓",
+  "parts": [{"id": "101339", "name": "dowel", "quantity": "2x"}],
+  "tools": ["Hammer"],
+  "safety_alert": "⚠️ Tipping hazard – must be securely anchored to prevent falling.",
+  "difficulty": "Medium"
+}

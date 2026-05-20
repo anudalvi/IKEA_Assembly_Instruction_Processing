@@ -1,0 +1,19 @@
+{
+    "classification": "Assembly",
+    "step_name": "Install Snap Fitting",
+    "action": "1. Insert snap fitting arrow \u2191 into door frame top.\n2. Align bracket side \u2193 against screw hole.",
+    "parts": [
+        {
+            "id": "104325",
+            "name": "snap fitting",
+            "quantity": 2
+        }
+    ],
+    "tools": [
+        "(not included)"
+    ],
+    "safety": "Wall anchoring required",
+    "difficulty": [
+        "Easy"
+    ]
+}

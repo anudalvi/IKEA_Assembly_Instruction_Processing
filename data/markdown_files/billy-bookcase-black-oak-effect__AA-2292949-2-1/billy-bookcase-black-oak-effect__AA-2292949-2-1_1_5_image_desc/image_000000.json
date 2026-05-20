@@ -1,0 +1,22 @@
+{
+    "classification": "Assembly",
+    "step_name": "Bookcase Assembly",
+    "action": "1. Insert screws \u2193\n2. Align dowel \u2191\n3. Tighten bolt \u2713",
+    "parts": [
+        {
+            "id": "Unknown",
+            "name": "screw",
+            "quantity": 4
+        },
+        {
+            "id": "104325",
+            "name": "dowel",
+            "quantity": 8
+        }
+    ],
+    "tools": [],
+    "safety": "None",
+    "difficulty": [
+        "Medium"
+    ]
+}

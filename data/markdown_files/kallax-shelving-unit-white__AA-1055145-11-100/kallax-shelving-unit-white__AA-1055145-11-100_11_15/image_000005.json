@@ -1,0 +1,12 @@
+{
+"classification": "Assembly",
+"step_name": "Install shelving bracket into sideboard",
+"action": "1. Align bracket →\n2. Secure bracket with screws",
+"parts": [
+{"id": "104321", "name": "screw", "quantity": "6x"},
+{"id": "104322", "name": "screw", "quantity": "10x"}
+],
+"tools": ["Allen key (not included)"],
+"safety_alert": "Safety Guidelines",
+"difficulty": "Medium"
+}

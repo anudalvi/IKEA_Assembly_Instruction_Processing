@@ -1,0 +1,15 @@
+Analyze the provided IKEA assembly image.
+
+TASK:
+1. Classify as "Assembly" or "Guidance" based on System Prompt rules.
+2. Extract entities (Parts, Tools, Safety, Action) per System Prompt Extraction Rules.
+3. Output valid JSON matching the System Prompt Output Schema EXACTLY.
+
+CONSTRAINTS:
+• DO NOT invent fields (e.g., forbid "assembly_steps", "symbols", "steps").
+• DO NOT use markdown wrappers (```json).
+• Ensure "action" is a multi-line string, NOT an array.
+• Validate JSON against System Prompt Schema before outputting.
+
+
+OUTPUT: Raw JSON object only. Nothing else.

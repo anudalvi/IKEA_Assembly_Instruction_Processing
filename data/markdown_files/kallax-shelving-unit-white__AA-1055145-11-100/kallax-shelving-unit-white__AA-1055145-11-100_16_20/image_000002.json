@@ -1,0 +1,17 @@
+{
+  "classification": "Assembly",
+  "step_name": "Install bracket panel",
+  "action": "1. Position 2x bracket with alignment mark ↓\n   2. Secure with Allen key (not included)",
+  "parts": [
+    {
+      "id": "100372",
+      "name": "panel"
+    },
+    {
+      "id": "115753",
+      "name": "panel"
+    }
+  ],
+  "tools": [],
+  "safety_alert": "WARNING! Tipping hazard – this product must be securely anchored."
+}

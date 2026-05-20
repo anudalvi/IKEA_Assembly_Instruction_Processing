@@ -1,0 +1,17 @@
+{
+    "classification": "Assembly",
+    "step_name": "Step 8: Align",
+    "action": "1. Insert arrow \u2193\n2. Align arrow \u2191 to top\n3. \u2713 Confirm alignment",
+    "parts": [
+        {
+            "id": "Unknown",
+            "name": "dowel",
+            "quantity": "Unclear"
+        }
+    ],
+    "tools": [],
+    "safety": "None",
+    "difficulty": [
+        "Medium"
+    ]
+}

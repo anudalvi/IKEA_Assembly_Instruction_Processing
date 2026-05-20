@@ -1,0 +1,10 @@
+{
+    "classification": "Guidance",
+    "content_type": "Warnings",
+    "description": "Warning symbol displayed in assembly context",
+    "key_info": [
+        "Tipping hazard \u2013 this product must be securely anchored",
+        "Use suitable screws and plugs for your home. If you are uncertain, seek professional advice."
+    ],
+    "guidance": "WARNING: Securely anchor the bookcase to wall. Use suitable screws and plugs. If unsure, seek professional advice before installation due to a tipping hazard."
+}

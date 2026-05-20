@@ -1,0 +1,67 @@
+{
+   "graph_dbname":"IKEA_CatalogDB", 
+   "nodes":[
+      {
+         "ddl_name":"Markdown Chunks",
+         "entity_name":"MarkdownFileChunk",
+         "entity_alias":"mfc",
+         "graph_node_type":"multiple",
+         "node_array_name":"markdown_file_chunk_node",
+         "mapping_details":{
+            "Column_Mapping":{
+               "markdown_chunk_file_path":"markdown_chunk_file_path",
+               "markdown_file_start_page":"markdown_file_start_page",
+               "markdown_file_end_page":"markdown_file_end_page"
+            },
+            "key_column":{
+               "markdown_file_name":"markdown_file_name",
+               "pdf_file_name":"pdf_file_name",
+               "manual_id":"manual_id"
+            }
+         },
+         "index_columns":[
+            "manual_id",
+            "markdown_file_name",
+            "pdf_file_name"
+         ]
+      }
+   ],
+   "relationships":[
+      {
+         "from_node":"MarkdownFileChunk",
+         "from_node_alias":"mfc",
+         "to_node":"MarkdownAssemblyImage",
+         "to_node_alias":"mi",
+         "join_conditions":{
+            "markdown_file_name":"markdown_file_name",
+            "pdf_file_name":"pdf_file_name"
+         },
+         "relationship_name":"HAS_IMAGE",
+         "match_type":"OPTIONAL MATCH"
+      },
+      {
+         "from_node":"MarkdownFileChunk",
+         "from_node_alias":"mfc",
+         "to_node":"MarkdownText",
+         "to_node_alias":"mt",
+         "join_conditions":{
+            "markdown_file_name":"markdown_file_name",
+            "pdf_file_name":"pdf_file_name"
+         },
+         "relationship_name":"HAS_TEXT",
+         "match_type":"OPTIONAL MATCH"
+      },
+      {
+         "from_node":"MarkdownFileChunk",
+         "from_node_alias":"mfc",
+         "to_node":"MarkdownLanguageWarning",
+         "to_node_alias":"lwm",
+         "join_conditions":{
+            "markdown_file_name":"markdown_file_name",
+            "pdf_file_name":"pdf_file_name"
+         },
+         "relationship_name":"HAS_LANGUAGE_WARNING",
+         "match_type":"OPTIONAL MATCH"
+      }
+   ]
+}

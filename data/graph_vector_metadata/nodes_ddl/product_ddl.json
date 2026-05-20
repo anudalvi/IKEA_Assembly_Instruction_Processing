@@ -1,0 +1,51 @@
+{
+   "graph_dbname":"IKEA_CatalogDB",
+   "nodes":[
+      {
+         "ddl_name":"Product",
+         "entity_name":"Product",
+         "entity_alias":"p",
+         "graph_node_type":"single",
+         "node_array_name":"product_details_node",
+         "mapping_details":{
+            "Column_Mapping":{
+               "product_name":"product_name",
+               "product_color":"product_color",
+               "product_dimension":"product_dimension",
+               "product_category":"product_category",
+               "instruction_type":"instruction_type",
+               "assembly_instruction_file_path":"assembly_instruction_file_path",
+               "assembly_instruction_filename":"assembly_instruction_filename",
+               "assembly_manual_id":"assembly_manual_id",
+               "product_details":"Product details",
+               "good_to_know":"Good to know",
+               "product_material":"Material",
+               "care_info":"Care",
+               "safety_info":"Safety and compliance"
+            },
+            "key_column":{
+               "product_id":"Article Number"
+            }
+         },
+         "index_columns":[
+            "product_id",
+            "assembly_instruction_filename",
+            "assembly_manual_id",
+            "product_name"
+         ]
+      }
+   ],
+   "relationships":[
+      {
+         "from_node":"Product",
+         "from_node_alias":"p",
+         "to_node":"Instruction_Manual",
+         "to_node_alias":"ma",
+         "join_conditions":{
+            "assembly_instruction_filename":"manual_file_name"
+         },
+         "relationship_name":"HAS_MANUAL",
+         "match_type":"MATCH"
+      }
+   ]
+}

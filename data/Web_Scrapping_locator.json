@@ -1,0 +1,51 @@
+{
+   "fetch_product_details_main_url":"/cat/products-products/",
+   "parse_product_category_links":{
+      "category_url_to_compile":"https://www.ikea.com/nl/en/cat/",
+      "link_attribute_to_fetch":"href",
+      "parser_type":"html.parser"
+   },
+   "parse_product_links":{
+      "parser_type":"html.parser",
+      "product_links_locator":{
+         "tag_name":"div",
+         "class_name":"plp-mastercard plp-fragment-wrapper plp-fragment-wrapper--grid"
+      },
+      "link_child_tag":"a",
+      "link_attribute":"href",
+      "product_links_csv_filename":"product_links.csv"
+   },
+   "product_details":{
+      "product_links_filter":{
+         "link_old":[
+            "https://www.ikea.com/nl/en/p/lack-wall-shelf-unit-white-60282186/",
+            "https://www.ikea.com/nl/en/p/billy-bookcase-white-00263850/",
+            "https://www.ikea.com/nl/en/p/billy-oxberg-bookcase-w-doors-extension-unit-black-oak-effect-s89562964/"
+         ],
+         "link":[
+            "https://www.ikea.com/nl/en/p/billy-oxberg-bookcase-w-doors-extension-unit-black-oak-effect-s89562964/"
+         ],
+         "title":[
+            "Bookcases & shelving units"
+         ]
+      },
+      "product_links_locators":{
+         "product_name_container":{
+            "locator":"xpath=//h1[@class='pipcom-text pipcom-typography-heading-s']",
+            "property":"text"
+         },
+         "containers_xpath":"xpath=//div[@class='pipf-product-details-modal']",
+         "headers_tag":[
+            "h3",
+            "h2",
+            "h4"
+         ],
+         "header_preceding_sibling":"xpath=preceding-sibling",
+         "header_container_select":"last",
+         "header_attribute":"text",
+         "product_id_label":"pipf-product-identifier__label",
+         "product_id_value":"pipf-product-identifier__value",
+         "product_identifier_keyword":"pipf-product-identifier"
+      }
+   }
+}

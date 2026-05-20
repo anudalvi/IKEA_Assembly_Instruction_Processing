@@ -1,0 +1,17 @@
+{
+  "action": "Multi-line numbered steps with integrated symbols (→↑+⚠️✓)",
+  "parts": [
+    {
+      "id": "104321",
+      "generic_name": "screw"
+    },
+    {
+      "id": "104322",
+      "generic_name": "screw"
+    }
+  ],
+  "steps": [
+    "→ Insert L-shaped metal plate (100092) →↑ into vertical post (121030) with screws (⚠️ Anchor)",
+    "→ Push side panel ← and secure using provided tool"
+  ]
+}

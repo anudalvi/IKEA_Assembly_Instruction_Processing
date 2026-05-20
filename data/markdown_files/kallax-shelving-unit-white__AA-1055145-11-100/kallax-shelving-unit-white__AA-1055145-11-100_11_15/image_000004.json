@@ -1,0 +1,33 @@
+{
+  "classification": "Assembly",
+  "parts": [
+    {
+      "id": "101339",
+      "name": "screw",
+      "quantity": "8x"
+    },
+    {
+      "name": "Panel",
+      "description": "Generic wall panel component"
+    }
+  ],
+  "tools": [
+    "Hammer",
+    "Allen key"
+  ],
+  "steps": [
+    {
+      "number": 1,
+      "text": "Secure wall mounting bracket using Allen key →⚠️✓"
+    },
+    {
+      "number": 2,
+      "text": "Insert panel into mounting frame (arrow direction indicated)"
+    }
+  ],
+  "safety": [
+    {
+      "warning_text": "WARNING! Tipping hazard – this product must be securely anchored."
+    }
+  ]
+}

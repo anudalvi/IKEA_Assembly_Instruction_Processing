@@ -1,0 +1,10 @@
+{
+  "classification": "Assembly",
+  "parts_ids": ["101339"],
+  "generic_names": ["screw"],
+  "quantity": 2,
+  "tools": ["hammer", "screwdriver"],
+  "symbols": ["arrow"],
+  "text": "Instruction to insert screws.",
+  "instructions": "Push panel into wall slot (Step 1). Then insert screws (Step 2)."
+}

@@ -1,0 +1,9 @@
+{
+    "action": "assembly",
+    "parts": [
+        {
+            "generic_name": "screw/dowel",
+            "quantity": 2
+        }
+    ]
+}

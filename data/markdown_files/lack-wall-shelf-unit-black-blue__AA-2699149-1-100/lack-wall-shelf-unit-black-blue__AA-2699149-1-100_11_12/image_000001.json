@@ -1,0 +1,19 @@
+{
+    "classification": "Assembly",
+    "step_name": "Install Shelf Panel",
+    "action": "1. Insert screw \u2193\n2. Align arrow \u2191 to top\n3. Tighten \u2713",
+    "parts": [
+        {
+            "id": "Unknown",
+            "name": "screw",
+            "quantity": 4
+        }
+    ],
+    "tools": [
+        "Level (included)"
+    ],
+    "safety": "Falling hazard \u2013 anchor required",
+    "difficulty": [
+        "Medium"
+    ]
+}

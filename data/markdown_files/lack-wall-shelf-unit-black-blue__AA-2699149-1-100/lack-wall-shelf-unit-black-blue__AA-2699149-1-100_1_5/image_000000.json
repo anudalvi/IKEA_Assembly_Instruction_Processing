@@ -1,0 +1,25 @@
+{
+    "classification": "Assembly",
+    "step_name": "Wall Shelf Assembly Steps",
+    "action": "1. Align shelf panel vertically to wall.\n2. Insert dowel through holes for alignment.\n3. Tighten screws with Allen key.",
+    "parts": [
+        {
+            "id": "Unknown",
+            "name": "screw",
+            "quantity": "Unclear"
+        },
+        {
+            "id": "Unknown",
+            "name": "dowel",
+            "quantity": "Unclear"
+        }
+    ],
+    "tools": [
+        "Allen key (included)"
+    ],
+    "safety": "Falling hazard \u2013 anchor required",
+    "difficulty": [
+        "Easy"
+    ]
+
+}

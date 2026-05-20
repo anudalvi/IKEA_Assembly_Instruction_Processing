@@ -1,0 +1,1 @@
+"\n{\n  \"assembly_steps\": [\n    \"Connect the main panels\",\n    \"Tighten screws (4x)\",\n    \"Slide panel into place\",\n    \"Place shelf in position\"\n  ],\n  \"parts_found\": {\n    \"ID\": \"112399\",\n    \"name\": \"Screw\",\n    \"quantity\": \"4x\"\n  },\n  \"tools_required\": [\n    \"Allen key\"\n  ],\n  \"safety_instructions\": []\n}\n"

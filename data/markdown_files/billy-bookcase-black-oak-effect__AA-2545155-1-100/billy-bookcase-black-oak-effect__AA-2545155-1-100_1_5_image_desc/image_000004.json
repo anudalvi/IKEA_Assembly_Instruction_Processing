@@ -1,0 +1,10 @@
+{
+    "classification": "Guidance",
+    "content_type": "Warnings",
+    "description": "Warning symbol displayed on image",
+    "key_info": [
+        "WARNING! Tipping hazard \u2013 this product must be securely anchored.",
+        "Use suitable screws and plugs for your home. If you are uncertain, seek professional advice."
+    ],
+    "guidance": "Refer to Safety Guidelines section for proper anchoring requirements before use."
+}

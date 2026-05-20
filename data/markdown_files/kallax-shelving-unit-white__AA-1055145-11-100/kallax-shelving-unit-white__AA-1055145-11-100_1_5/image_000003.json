@@ -1,0 +1,9 @@
+{
+  "classification": "Assembly",
+  "content_type": "Safety",
+  "description": "Warning triangle with exclamation mark",
+  "key_info": [
+    "⚠️"
+  ],
+  "guidance": "Refer to product context for anchoring requirements."
+}

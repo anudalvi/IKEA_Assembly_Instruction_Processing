@@ -1,0 +1,13 @@
+{
+    "classification": "Assembly",
+    "step_name": "Step Nine",
+    "action": "9. Align arrow \u2191 to top",
+    "parts": [],
+    "tools": [
+        "screwdriver (not included)"
+    ],
+    "safety": "None",
+    "difficulty": [
+        "Easy"
+    ]
+}

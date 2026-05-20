@@ -1,0 +1,18 @@
+
+### TASK
+0. **Assembly Check**: Does this image show an assembly action? If no, output "No assembling information found" and stop.
+1. Identify the main action being performed.
+2. List visible part numbers/IDs to the parts reference and quantities.
+   - Map IDs to common names using visual cues
+   - Extract quantity from "Nx" notation; if absent, use "Qty: Not shown"
+   - If ID unreadable, describe by shape: `[Unknown: L-shaped bracket] (Qty: 2)`
+3. Identify any tools required.(add "(not included)" if icon shown but tool not provided).
+4. Note any orientation arrows or safety warnings visible:
+   - Prioritize symbols (⚠️, 🔺) over text language
+   - Flag tip-over, glass, heavy-part, or sharp-edge cues for Safety Alert.
+5. Generate a **Step Name** for each image reflecting the action performed in that step.
+6. Follow STRICT OUTPUT FORMAT:
+   - Apply Safety Guidelines from system prompt (wall anchors, glass, heavy parts)
+7. Use {previous_step_name} to maintain continuity (e.g., 'Continue assembling drawer frame')
+
+Keep "Action" simple for a beginner.

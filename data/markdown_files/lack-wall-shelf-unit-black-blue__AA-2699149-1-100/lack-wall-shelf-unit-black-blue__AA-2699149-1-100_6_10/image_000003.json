@@ -1,0 +1,24 @@
+{
+    "classification": "Assembly",
+    "step_name": "Secure Shelf to Wall",
+    "action": "1. Align shelf panel with wall bracket \u2192\n2. Insert Allen key into screw hole \u2193\n3. Tighten until secure \u2713",
+    "parts": [
+        {
+            "id": "Unknown",
+            "name": "screw",
+            "quantity": 4
+        },
+        {
+            "id": "Unknown",
+            "name": "panel",
+            "quantity": 1
+        }
+    ],
+    "tools": [
+        "Allen key (included)"
+    ],
+    "safety": "Falling hazard \u2013 anchor required",
+    "difficulty": [
+        "Easy"
+    ]
+}

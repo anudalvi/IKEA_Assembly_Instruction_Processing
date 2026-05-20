@@ -1,0 +1,12 @@
+[GUIDANCE]
+```json
+{
+  "classification": "Guidance",
+  "content_type": "No Info",
+  "description": "IKEA logo only",
+  "key_info": [
+    "Design and Quality",
+    "IKEA of Sweden"
+  ],
+  "guidance": "No assembly information available"
+}

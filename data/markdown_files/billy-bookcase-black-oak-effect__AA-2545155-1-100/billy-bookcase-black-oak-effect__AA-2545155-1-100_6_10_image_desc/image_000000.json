@@ -1,0 +1,10 @@
+{
+    "classification": "Guidance",
+    "content_type": "Warnings",
+    "description": "Image shows warning symbols next to screw types (plus and minus), indicating correct vs incorrect usage or compatibility.",
+    "key_info": [
+        "Use plus sign (+) for correct application",
+        "Avoid cross mark (X) symbol"
+    ],
+    "guidance": "Review screw type symbols in image; ensure correct fasteners are used for the BILLY bookcase assembly."
+}
