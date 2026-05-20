@@ -4,6 +4,11 @@ A **Retrieval-Augmented Generation (RAG)** pipeline that scrapes IKEA product pa
 
 ---
 
+> [!NOTE]
+> **Disclaimer:** The PDF assembly instruction files used in this project are publicly available documents provided by IKEA on their official website ([ikea.com](https://www.ikea.com)). They are used here solely for research and educational purposes. All intellectual property rights remain with IKEA. This project is not affiliated with or endorsed by IKEA.
+
+---
+
 ## Table of Contents
 
 - [Overview](#overview)
