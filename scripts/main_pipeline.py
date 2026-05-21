@@ -38,7 +38,7 @@ async def main():
     logger.info(f"Web scrapping pipeline completed: {results}")
     #vl_model_client_pipeline = create_vl_model_client_pipeline(settings)
     for input in results['parse_product_details_and_manual_download']['product_details_and_manual_download']:
-        '''output = vl_model_client_pipeline.run({'UserPromptGeneration':{'result':input},'SystemPromptGeneration':{'result':input}})
+        output = vl_model_client_pipeline.run({'UserPromptGeneration':{'result':input},'SystemPromptGeneration':{'result':input}})
         #logger.info(f"VL model client pipeline completed for product :\n {output}")
         #logger.info(f"VL model client pipeline completed for product {input['Product Details']['product_name']}:\n User Prompt: {output['UserPromptGeneration']['user_prompt']}\n System Prompt: {output['SystemPromptGeneration']['system_prompt']}")
         chunk_file_generator_pipeline = create_document_chunk_pipeline(settings)
@@ -48,7 +48,7 @@ async def main():
         picture_description_results = picture_description_pipeline.run({'PictureDescription':{'input':input,'system_prompt':output['SystemPromptGeneration']['system_prompt'],
                                                                                                 'user_prompt':output['UserPromptGeneration']['user_prompt'], 
                                                                                                 'chunk_file_results':chunk_file_results['ChunkFileGenerator']['markdown_chunk_results']}})
-        logger.info(f"Picture description pipeline completed: {picture_description_results}")''' 
+        logger.info(f"Picture description pipeline completed: {picture_description_results}") 
         chunk_data_processing_pipeline = create_chunk_data_processing_pipeline(settings)
         chunk_data_processing_results = chunk_data_processing_pipeline.run({'ChunkDataProcessor':{'input':input}})
         logger.info(f"Chunk data processing pipeline completed: {chunk_data_processing_results}")
